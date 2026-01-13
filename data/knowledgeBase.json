@@ -1,0 +1,29 @@
+{
+  "plans": [
+    {
+      "id": "basic",
+      "name": "Basic Plan",
+      "cost": "$29/month",
+      "limits": {
+        "videos_per_month": 10,
+        "resolution": "720p"
+      },
+      "support": "Standard Email"
+    },
+    {
+      "id": "pro",
+      "name": "Pro Plan",
+      "cost": "$79/month",
+      "limits": {
+        "videos_per_month": "Unlimited",
+        "resolution": "4K",
+        "features": ["AI Captions"]
+      },
+      "support": "24/7 Priority"
+    }
+  ],
+  "policies": {
+    "refunds": "No refunds after 7 days.",
+    "support_eligibility": "24/7 support is strictly for Pro Plan only."
+  }
+}
