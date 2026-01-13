@@ -22,7 +22,7 @@
 ## Project Structure
 
 ```text
-autostream-bot/
+AutoStream-AI-Agent/
 │
 ├── data/
 │   └── knowledgeBase.json       # Source of truth for RAG (Pricing, Policies)
@@ -52,7 +52,7 @@ autostream-bot/
 
 ```bash
 git clone https://github.com/fahadNoufal/AutoStream-AI-Agent.git
-cd autostream-bot
+cd AutoStream-AI-Agent
 ```
 
 ### 3. Create a Virtual Environment (Recommended)
