@@ -6,7 +6,7 @@ class RAGRetriever:
         self.vector_store = vector_store
         self.embedding_manager = embedding_manager
 
-    def retrieve(self, query: str, top_k: int = 2) -> str:
+    def retrieve(self, query: str, top_k: int = 4) -> str:
         query_embedding = self.embedding_manager.generate_embeddings([query])[0]
         results = self.vector_store.query(query_embeddings=[query_embedding.tolist()], n_results=top_k)
         

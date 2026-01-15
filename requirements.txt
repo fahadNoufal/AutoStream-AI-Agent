@@ -9,3 +9,7 @@ numpy
 python-dotenv
 ipython
 re
+python-multipart 
+twilio
+fastapi
+uvicorn

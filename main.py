@@ -8,11 +8,11 @@ import re
 import os
 
 def main():
-    # 1. Initialize DB & Retriever
+    # Initialize DB & Retriever
     db, embedding_manager = init_vector_db(KNOWLEDGE_BASE_PATH)
     retriever = RAGRetriever(db, embedding_manager)
 
-    # 2. Build Graph
+    # Build Graph
     graph = build_graph(retriever)
     config = {"configurable": {"thread_id": "1"}}
 
@@ -21,9 +21,9 @@ def main():
     def mock_lead_capture(name, email, platform):
         print(f"Lead captured successfully: {name}, {email}, {platform}")
 
-    # 3. Chat Loop
+    # Chat Loop
     while True:
-        query = input('You: ')
+        query = input('Client: ')
         if query.strip().lower() in ['exit', 'q', 'quit']:
             break
 

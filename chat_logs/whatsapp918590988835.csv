@@ -1,0 +1,11 @@
+Date,Time,Sender,Message,User Details,Lead Captured
+2026-01-15,12:48:13,User,Hi,,False
+2026-01-15,12:48:17,Bot,"Hi there! 👋 Welcome to AutoStream, where we help creators like you save hours on video editing. Ready to give it a try? Sign up for a free account and see how much time you can save!",,False
+2026-01-15,12:48:39,User,Telme about plans,,False
+2026-01-15,12:48:42,Bot,"Okay, great question! We have two main plans:     Basic Plan:  At \$29/month, it's perfect for getting started. You get 720p resolution, which is great for standard online viewing, and you can upload up to 10 videos. Plus, you'll have access to our standard email support.     Pro Plan:  For \$79/month, you get the full AutoStream experience. That includes stunning 4K resolution to make your content look super professional, unlimited videos, and 24/7 priority support to quickly resolve any issues. Ready to sign up?",,False
+2026-01-15,12:48:57,User,Shure,,False
+2026-01-15,12:49:00,Bot,"Fantastic! To get you started, could you please provide your name, contact information, and the platform where you create videos?",,False
+2026-01-15,12:49:28,User,"Peter
+Jsks@gmil.co
+Reddit",,False
+2026-01-15,12:49:31,Bot,Successfully signed-up! Welcome to AutoStream.,"{""name"": ""Peter"", ""contact"": ""Jsks@gmil.co"", ""platform"": ""Reddit""}",True
